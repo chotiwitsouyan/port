@@ -1,0 +1,50 @@
+.banner {
+    color: white;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    margin-top: 180px;
+    padding-bottom: 197px;
+    animation: slide 1s;
+}
+@keyframes slide {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(0%);
+    }
+}
+.banner h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 2px black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: left;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+.edu ul{
+    padding: 10px;
+}
+.edu li{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.edu img{
+    width: 15%;
+    transition: .5s;
+}
+.edu img:hover {
+    transform: scale(.9);
+}
+.edu a{
+    text-decoration: none;
+    color: black;
+}
+.edu .ccr li{
+    display: inline-block;
+}
+.edu .kmutt,.ccr{
+    background-color: #F3F3F3;
+}

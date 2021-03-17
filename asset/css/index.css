@@ -1,0 +1,160 @@
+.button {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 100px;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    transition: 0.5s;
+
+}
+
+.button a {
+    color: black;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+.banner {
+    color: white;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    margin-top: 180px;
+    padding-bottom: 197px;
+}
+
+.banner h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    text-shadow: 0 2px 2px black;
+    font-family: 'Playfair Display SC', serif;
+    text-align: left;
+    margin-left: 100px;
+    animation: from-top 2s;
+}
+
+@keyframes from-top {
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+
+
+
+.banner p {
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 2px black;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.banner p2 {
+    font-size: 18px;
+    text-align: center;
+}
+
+.banner p2 a {
+    color: #D4AF37;
+    text-decoration: none;
+    margin-bottom: 50px;
+    text-shadow: 0 2px 7px black;
+}
+
+.banner p2 a:hover {
+    border: gray;
+}
+.button {
+    background-color: white;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 100px;
+    font-family: 'Montserrat', 'Athiti', sans-serif;
+    transition: 0.5s;
+
+}
+
+.button a {
+    color: black;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(0.9);
+}
+.card-list {
+    display: block;
+    margin: 1rem auto;
+    padding: 0;
+    font-size: 0;
+    text-align: center;
+    list-style: none;
+}
+
+.card {
+    display: inline-block;
+    width: 90%;
+    max-width: 20rem;
+    margin: 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    overflow: hidden;
+    box-shadow: 0 0 3rem -1rem rgba(0,0,0,0.5);
+    transition: transform 0.1s ease-in-out, box-shadow 0.1s;
+}
+
+.card:hover {
+    transform: translateY(-0.5rem) scale(1.0125);
+    box-shadow: 0 0.5em 3rem -1rem rgba(0,0,0,0.5);
+}
+
+.card-description {
+    display: block;
+    padding: 1em 0.5em;
+    color: #515151;
+    text-decoration: none;
+}
+
+.card-description > h2 {
+    margin: 0 0 0.5em;
+}
+
+.card-description > p {
+    margin: 0;
+}
+.text-1 h3 {
+    border-bottom: 1px solid black;
+    line-height: .1em;
+    font-size: 42px;
+    text-align: center;
+    font-family: 'Playfair Display SC', serif;
+    margin: 100px 100px;
+}
+
+.text-1 h3 span {
+    background-color: white;
+    padding: 10px 10px;
+}
